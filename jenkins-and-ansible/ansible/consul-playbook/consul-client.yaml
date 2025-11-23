@@ -1,6 +1,6 @@
 ---
 - name: Configure Consul clients
-  hosts: region_us-east-1
+  hosts: aws_region_us_east_1
   become: yes
   tasks:
     - name: Create directories for Consul
